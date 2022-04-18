@@ -1,12 +1,17 @@
 {
   "components": {
     "x-625539-impact-group-repeater": {
-      "innerComponents": [],
+      "innerComponents": [
+        "x-625539-impact-title",
+        "x-625539-impact-component",
+        "x-625539-impact-body",
+        "x-625539-date-input"
+      ],
       "uiBuilder": {
         "associatedTypes": ["global.core", "global.landing-page"],
-        "label": "My Component",
+        "label": "Impact Group Repeater",
         "icon": "document-outline",
-        "description": "A description of my component",
+        "description": "Creates a new form entry for each impact group passed to the component",
         "category": "primitives"
       },
       "properties": [
