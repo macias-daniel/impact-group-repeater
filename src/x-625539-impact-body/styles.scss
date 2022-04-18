@@ -1,0 +1,16 @@
+@import '@servicenow/sass-kit/host';
+
+$button-color: var($now-color--secondary-1);
+
+.body-wrapper{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 10px;
+    grid-auto-rows: auto;
+};
+
+
+*{
+    background-color: $button-color;
+}
+
